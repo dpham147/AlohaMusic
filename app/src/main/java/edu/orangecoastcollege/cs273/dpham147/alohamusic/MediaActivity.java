@@ -33,7 +33,7 @@ public class MediaActivity extends AppCompatActivity {
         hulaVideoView.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.hula));
         hulaVideoView.setMediaController(new MediaController(this));
 
-        // Associate mediaplayer objects with raw files (audio)
+        // Associate media player objects with raw files (audio)
         ukuleleMP = MediaPlayer.create(this, R.raw.ukulele);
         ipuMP = MediaPlayer.create(this, R.raw.ipu);
 
